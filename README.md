@@ -40,7 +40,6 @@ The RC522 module is versatile and finds applications in security systems, invent
 
 For detailed usage instructions and code examples, refer to the documentation and resources available for your specific microcontroller platform.
 
-
 ## Pinouts
 
 | RC522 RFID Reader Module | Raspberry Pi Pico |
@@ -55,6 +54,8 @@ For detailed usage instructions and code examples, refer to the documentation an
 | SDA                      | GP1                |
 
 In this table, we present the connection between the Raspberry Pi Pico and the RC522 RFID reader module. The VCC (power supply) and GND (ground) wires of the module should be connected to the 3.3V and GND pins of the Raspberry Pi Pico to ensure proper module operation. The RST (reset) and IRQ (interrupt) wires can be connected or omitted depending on specific functions. The MISO, MOSI, and SCK wires are used for SPI communication and should be connected to the corresponding GPIO pins. The SDA wire is also used in SPI communication.
+
+<img src="https://raw.githubusercontent.com/momszx/Pico_RFID/main/pic/Raspberry-Pi-Pico-with-RC522-and-RGB-LED-module-connection-diagram.jpg" class="center">
 
 ## Class Initialization
 
